@@ -1,0 +1,19 @@
+{
+	"name": "tsup-package-template",
+	"version": "0.0.0",
+	"private": false,
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsup src/index.ts --format cjs,esm --minify --dts --sourcemap",
+		"lint": "tsc",
+		"release": "pnpm run build && changeset publish"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@changesets/cli": "^2.27.1",
+		"tsup": "^8.0.1",
+		"typescript": "^5.3.3"
+	}
+}
