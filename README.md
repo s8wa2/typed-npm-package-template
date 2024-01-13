@@ -3,7 +3,7 @@
 - Automatic deployment to npm
 - Easy versioning w/ [changeset](https://www.npmjs.com/package/@changesets/cli)
 - Performance gains with [pnpm](https://pnpm.io)
-- Inspired by @mattpocock and his [example repo](https://github.com/mattpocock/pkg-demo)
+- Inspired by [@mattpocock](https://github.com/mattpocock) and his [example repo](https://github.com/mattpocock/pkg-demo)
 
 ## Usage
 1. Add a repository secret named NPM_TOKEN and set it to your npm access token
